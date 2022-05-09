@@ -26,7 +26,7 @@ $(function () {
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
                 url: "https://t6s2l23ibf.execute-api.eu-west-1.amazonaws.com/default/Portfolio_Model_Solution", 
                 // ------------------------------------------------------  
-                type: "POST",
+                type: "POST", 
                 data: JSON.stringify(json),
                 cache: false,
                 success: function () {
